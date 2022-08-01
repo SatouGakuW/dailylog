@@ -29,7 +29,7 @@
   activate pytorch
   ```
   
-- 去官网 https://pytorch.org/get-started/locally/ 根据CUDA选择相应的版本，然后官方给出提示可通过运行 `conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge` 安装
+- 去[官网](https://pytorch.org/get-started/locally/)，根据CUDA版本选择相应的版本，然后官方给出提示可通过运行 `conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge` 安装
   
   由于要使用清华源加速，把原命令里面带有 `-c` 的都删去，执行下面的命令。
   ```bash
